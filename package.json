@@ -1,0 +1,22 @@
+{
+  "name": "alertz0n",
+  "version": "1.0.0",
+  "description": "This is a simple Amazon price tracker built in TypeScript that monitors the price of an Amazon product and sends a notification to a Discord server via a webhook if the price drops below a specified threshold.",
+  "author": "Emmanuel Martinez",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
