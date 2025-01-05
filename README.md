@@ -29,8 +29,8 @@ This is a simple Amazon price tracker built in TypeScript that monitors the pric
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/amazon-price-tracker.git
-    cd amazon-price-tracker
+    git clone https://github.com/your-username/alertz0n.git
+    cd alertz0n
     ```
 
 2. **Install dependencies**:
